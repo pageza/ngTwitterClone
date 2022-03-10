@@ -7,18 +7,26 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PostCreateComponent } from './posts/post-create/post-create.component';
 import { RouterModule } from "@angular/router";
+import { PostLinkComponent } from './posts/post-link/post-link.component';
+import { SmallHeaderComponent } from './header/small-header/small-header.component';
+import { MatButtonModule } from "@angular/material/button";
+import { PostsListComponent } from './posts/posts-list/posts-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SidebarComponent,
-    PostCreateComponent
+    PostCreateComponent,
+    PostLinkComponent,
+    SmallHeaderComponent,
+    PostsListComponent
   ],
     imports: [
         BrowserModule,
         AppRoutingModule,
         BrowserAnimationsModule,
-        RouterModule
+        RouterModule,
+        MatButtonModule
     ],
   providers: [],
   bootstrap: [AppComponent]

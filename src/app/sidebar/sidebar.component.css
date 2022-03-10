@@ -1,4 +1,17 @@
-div {
-  width: 30%;
-  background: blue;
+
+ul {
+  list-style-type: none;
+  color: darkslategrey;
+  margin: 0;
+  text-align: center;
+  padding-top: 20%;
+}
+li {
+  padding-bottom: 12%;
+  font-size: xx-large;
+}
+
+
+app-small-header {
+  vertical-align: bottom;
 }
