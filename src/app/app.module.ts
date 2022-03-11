@@ -11,6 +11,7 @@ import { PostLinkComponent } from './posts/post-link/post-link.component';
 import { SmallHeaderComponent } from './header/small-header/small-header.component';
 import { MatButtonModule } from "@angular/material/button";
 import { PostsListComponent } from './posts/posts-list/posts-list.component';
+import { HomeComponent } from './home/home/home.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { PostsListComponent } from './posts/posts-list/posts-list.component';
     PostCreateComponent,
     PostLinkComponent,
     SmallHeaderComponent,
-    PostsListComponent
+    PostsListComponent,
+    HomeComponent
   ],
     imports: [
         BrowserModule,
