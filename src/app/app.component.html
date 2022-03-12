@@ -1,5 +1,7 @@
 <mat-grid-list cols="3" rowHeight="fit" style="height: 100%">
-  <mat-grid-tile class="side-bar grid"><sidebar></sidebar></mat-grid-tile>
-  <mat-grid-tile class="home-container grid"><home></home></mat-grid-tile>
+<!--  TODO: Move the sidebar to the upper right of the column-->
+  <mat-grid-tile><sidebar></sidebar></mat-grid-tile>
+  <mat-grid-tile><router-outlet></router-outlet></mat-grid-tile>
+<!--  TODO: Justify the content of this column to the left-->
   <mat-grid-tile>Other content</mat-grid-tile>
 </mat-grid-list>

@@ -14,7 +14,5 @@ export class SidebarComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  home() {
-    this._router.navigate(['/home'])
-  }
+
 }
