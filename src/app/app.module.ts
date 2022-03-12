@@ -11,7 +11,6 @@ import { PostLinkComponent } from './posts/post-link/post-link.component';
 import { SmallHeaderComponent } from './header/small-header/small-header.component';
 import { MatButtonModule } from "@angular/material/button";
 import { PostsListComponent } from './posts/posts-list/posts-list.component';
-import { HomeComponent } from './home/home/home.component';
 import {MatSidenavModule} from "@angular/material/sidenav";
 import {MatGridListModule} from "@angular/material/grid-list";
 import { ExploreComponent } from './explore/explore.component';
@@ -26,7 +25,6 @@ import { FollowsComponent } from './follows/follows.component';
     PostLinkComponent,
     SmallHeaderComponent,
     PostsListComponent,
-    HomeComponent,
     ExploreComponent,
     MessagesComponent,
     FollowsComponent

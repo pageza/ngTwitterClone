@@ -14,5 +14,10 @@ export class SidebarComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  goHome() {
+    this._router.navigateByUrl('/home')
+  }
+  goExplore() {
+    this._router.navigateByUrl('/explore')
+  }
 }

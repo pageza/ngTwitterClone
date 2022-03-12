@@ -1,12 +1,13 @@
 <div>
   <ul>
-    <li>Home</li>
-    <li>Explore</li>
+    <li (click)="goHome()">Home</li>
+    <li (click)="goExplore()">Explore</li>
     <li>Notifications</li>
     <li>Messages</li>
     <li>Followed</li>
     <li>Followers</li>
     <li><app-post-link></app-post-link></li>
   </ul>
+<!--  TODO: Align this to the bottom right of the column-->
   <app-small-header></app-small-header>
 </div>
