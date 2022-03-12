@@ -1,10 +1,12 @@
 import { NgModule } from "@angular/core";
 import { RouterModule, Routes } from "@angular/router";
 import { HomeComponent } from "./home/home/home.component";
+import {ExploreComponent} from "./explore/explore.component";
 
 const routes: Routes = [
+  { path: 'home', redirectTo: ''},
   { path: '', component: HomeComponent},
-  { path: 'home', redirectTo: ''}
+  { path: 'explore', component: ExploreComponent}
 ]
 
 @NgModule({

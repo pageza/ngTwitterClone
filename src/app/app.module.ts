@@ -14,6 +14,9 @@ import { PostsListComponent } from './posts/posts-list/posts-list.component';
 import { HomeComponent } from './home/home/home.component';
 import {MatSidenavModule} from "@angular/material/sidenav";
 import {MatGridListModule} from "@angular/material/grid-list";
+import { ExploreComponent } from './explore/explore.component';
+import { MessagesComponent } from './messages/messages.component';
+import { FollowsComponent } from './follows/follows.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +26,10 @@ import {MatGridListModule} from "@angular/material/grid-list";
     PostLinkComponent,
     SmallHeaderComponent,
     PostsListComponent,
-    HomeComponent
+    HomeComponent,
+    ExploreComponent,
+    MessagesComponent,
+    FollowsComponent
   ],
   imports: [
     BrowserModule,
