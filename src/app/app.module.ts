@@ -15,7 +15,9 @@ import {MatSidenavModule} from "@angular/material/sidenav";
 import {MatGridListModule} from "@angular/material/grid-list";
 import { ExploreComponent } from './explore/explore.component';
 import { MessagesComponent } from './messages/messages.component';
-import { FollowsComponent } from './follows/follows.component';
+import { FollowersComponent } from './follows/followers/followers.component';
+import { FollowingComponent } from './follows/following/following.component';
+import { NotificationsComponent } from './notifications/notifications.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { FollowsComponent } from './follows/follows.component';
     PostsListComponent,
     ExploreComponent,
     MessagesComponent,
-    FollowsComponent
+    FollowersComponent,
+    FollowingComponent,
+    NotificationsComponent,
   ],
   imports: [
     BrowserModule,
