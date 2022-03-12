@@ -12,6 +12,8 @@ import { SmallHeaderComponent } from './header/small-header/small-header.compone
 import { MatButtonModule } from "@angular/material/button";
 import { PostsListComponent } from './posts/posts-list/posts-list.component';
 import { HomeComponent } from './home/home/home.component';
+import {MatSidenavModule} from "@angular/material/sidenav";
+import {MatGridListModule} from "@angular/material/grid-list";
 
 @NgModule({
   declarations: [
@@ -23,13 +25,15 @@ import { HomeComponent } from './home/home/home.component';
     PostsListComponent,
     HomeComponent
   ],
-    imports: [
-        BrowserModule,
-        AppRoutingModule,
-        BrowserAnimationsModule,
-        RouterModule,
-        MatButtonModule
-    ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    RouterModule,
+    MatButtonModule,
+    MatSidenavModule,
+    MatGridListModule
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })

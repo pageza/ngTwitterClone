@@ -1,2 +1,5 @@
-<div><app-sidebar></app-sidebar></div>
-<router-outlet></router-outlet>
+<mat-grid-list cols="3" rowHeight="fit" style="height: 100%">
+  <mat-grid-tile class="side-bar grid"><sidebar></sidebar></mat-grid-tile>
+  <mat-grid-tile class="home-container grid"><home></home></mat-grid-tile>
+  <mat-grid-tile>Other content</mat-grid-tile>
+</mat-grid-list>
