@@ -21,6 +21,9 @@ import { NotificationsComponent } from './notifications/notifications.component'
 import {HttpClientModule} from "@angular/common/http";
 import { HomeComponent } from './home/home.component';
 import {ReactiveFormsModule} from "@angular/forms";
+import { LoginComponent } from './auth/login/login.component';
+import { RegistrationComponent } from './auth/registration/registration.component';
+import {MatCardModule} from "@angular/material/card";
 
 @NgModule({
   declarations: [
@@ -36,18 +39,21 @@ import {ReactiveFormsModule} from "@angular/forms";
     FollowingComponent,
     NotificationsComponent,
     HomeComponent,
+    LoginComponent,
+    RegistrationComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    BrowserAnimationsModule,
-    RouterModule,
-    MatButtonModule,
-    MatSidenavModule,
-    MatGridListModule,
-    HttpClientModule,
-    ReactiveFormsModule
-  ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        BrowserAnimationsModule,
+        RouterModule,
+        MatButtonModule,
+        MatSidenavModule,
+        MatGridListModule,
+        HttpClientModule,
+        ReactiveFormsModule,
+        MatCardModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
