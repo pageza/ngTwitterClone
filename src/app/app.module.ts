@@ -18,6 +18,7 @@ import { MessagesComponent } from './messages/messages.component';
 import { FollowersComponent } from './follows/followers/followers.component';
 import { FollowingComponent } from './follows/following/following.component';
 import { NotificationsComponent } from './notifications/notifications.component';
+import {HttpClientModule} from "@angular/common/http";
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { NotificationsComponent } from './notifications/notifications.component'
     RouterModule,
     MatButtonModule,
     MatSidenavModule,
-    MatGridListModule
+    MatGridListModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
