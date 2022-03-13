@@ -19,6 +19,7 @@ import { FollowersComponent } from './follows/followers/followers.component';
 import { FollowingComponent } from './follows/following/following.component';
 import { NotificationsComponent } from './notifications/notifications.component';
 import {HttpClientModule} from "@angular/common/http";
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import {HttpClientModule} from "@angular/common/http";
     FollowersComponent,
     FollowingComponent,
     NotificationsComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
