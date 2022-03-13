@@ -1,3 +1,6 @@
-<form>
-
+<form [formGroup]="postCreateForm" (ngSubmit)="onSubmit()">
+  <input id="title" type="text" placeholder="Post Title" formControlName="postTitle">
+  <input id="content" type="text" placeholder="Your Content" formControlName="postContent">
+  <input id="image" type="text" placeholder="Your image" formControlName="postImage">
+  <button type="submit">Post</button>
 </form>

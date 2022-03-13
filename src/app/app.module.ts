@@ -20,6 +20,7 @@ import { FollowingComponent } from './follows/following/following.component';
 import { NotificationsComponent } from './notifications/notifications.component';
 import {HttpClientModule} from "@angular/common/http";
 import { HomeComponent } from './home/home.component';
+import {ReactiveFormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { HomeComponent } from './home/home.component';
     MatButtonModule,
     MatSidenavModule,
     MatGridListModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
