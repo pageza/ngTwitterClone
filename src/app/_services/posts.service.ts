@@ -15,7 +15,8 @@ export class PostsService {
   ) { }
 
   createPost(post: Post): Observable<Post> {
-    return this._http.post<Post>(API_URL+'create', post)
+    console.log(post)
+    return this._http.post<Post>(API_URL+'/create', post)
   }
   getAllPosts(): Observable<Post[]>{
     return this._http.get<Post[]>(API_URL).pipe(
