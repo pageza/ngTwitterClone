@@ -29,4 +29,7 @@ export class RegistrationComponent implements OnInit {
     this._user.createUser(this.registrationForm.value)
       .subscribe(() => this._router.navigateByUrl('/login'))
   }
+  login() {
+    this._router.navigateByUrl('/login')
+  }
 }

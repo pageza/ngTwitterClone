@@ -7,6 +7,7 @@ import {FollowersComponent} from "./follows/followers/followers.component";
 import {FollowingComponent} from "./follows/following/following.component";
 import {NotificationsComponent} from "./notifications/notifications.component";
 import {HomeComponent} from "./home/home.component";
+import {RegistrationComponent} from "./auth/registration/registration.component";
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full'},
@@ -15,7 +16,8 @@ const routes: Routes = [
   { path: 'notifications', component: NotificationsComponent},
   { path: 'messages', component: MessagesComponent},
   { path: 'followers', component: FollowersComponent},
-  { path: 'following', component: FollowingComponent}
+  { path: 'following', component: FollowingComponent},
+  { path: 'registration', component: RegistrationComponent}
 ]
 
 @NgModule({

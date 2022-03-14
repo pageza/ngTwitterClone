@@ -20,7 +20,7 @@ export class PostsService {
   }
   getAllPosts(): Observable<Post[]>{
     return this._http.get<Post[]>(API_URL).pipe(
-      // shareReplay()
+      shareReplay()
    )
   }
 
